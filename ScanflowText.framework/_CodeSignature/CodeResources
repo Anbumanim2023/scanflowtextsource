@@ -108,50 +108,6 @@
 		<data>
 		x0eF/Alhqq4mBao0IIvRbIPuT4s=
 		</data>
-		<key>Frameworks/ScanflowCore.framework/.swiftlint.yml</key>
-		<data>
-		jmJuhChEFsYL1WeREI0h2PWaX3s=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/Info.plist</key>
-		<data>
-		9LBxlp0ycZmPrp21jYjMV67SpvU=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/ScanflowCore</key>
-		<data>
-		WGrFwUGRJcaMl20WIZgVrORQ6lQ=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/_CodeSignature/CodeResources</key>
-		<data>
-		IH2KRuITAkAQMAHAGB+ZMzdtCjs=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/beep.wav</key>
-		<data>
-		CkG536aXcLm3sIstrni24Rq1Sro=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/leftBottom.png</key>
-		<data>
-		NCWmVgFHcTCJvJMEpWv0ruJsPRc=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/leftTop.png</key>
-		<data>
-		PDzrNiVfNAVOcxZHBeBTO81to0k=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/oneofmany_beep.wav</key>
-		<data>
-		JMAX/HlMJVECpn+gCQ9fQ0Wi3rw=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/pivot.pdf</key>
-		<data>
-		hdydSEFzWT5Ue0RP9lfnMdrECFw=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/rightBottom.png</key>
-		<data>
-		KX6c9xg0XlGdowtCdVPjeAnZKSc=
-		</data>
-		<key>Frameworks/ScanflowCore.framework/rightTop.png</key>
-		<data>
-		1FjGDynQY0zCz95GSPXuDFXqK+0=
-		</data>
 		<key>Headers/ScanflowText-Swift.h</key>
 		<data>
 		DYMP8E3tfaT0lCK+uLbeiuiSTsU=
@@ -487,83 +443,6 @@
 			<key>hash2</key>
 			<data>
 			64cQkiQAr42LKe0YRSV5cBQ/AnhXBDpeNSXBpMxlD68=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/.swiftlint.yml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7rmTWv5ky+cotmq60RHTwMnV2Fx1Byjpw8tvTalQG9k=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AKbBtBwTcLa49ujQ3/FK1uDPAUwmbKahFgZm05v03PA=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/ScanflowCore</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HN+CNJe2eiJSDDKQiWt0ssZ/Op1KX/11/yRqG4wsZN0=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3x3XblyypMRHjuQDrwvRSQRPc98BJxssx/YWvDTEjnE=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/beep.wav</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iyHBkG7BNNfP3uVAvetqG2fVWNjZ+PDXZqx2fl4exnY=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/leftBottom.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KQG2zsCoIR7xwwMKSeQFxTKx17SmUgqwPRPu9kfxQcE=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/leftTop.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6bB0zDG9tZWRljk28iQghTC0LI8ZRznlBwO23xLxhEQ=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/oneofmany_beep.wav</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QihALw44m1ZyRJNiqIdJq+TcPmSFITkUhBGi/5pCJoc=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/pivot.pdf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FOMRWxjdpXB3v5mscYO3sKeBk9eMGGlueRthkCvT7Rc=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/rightBottom.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fCxOX840aNXHldWufxn4sgVTzzrnMcJLEZddf3kHSZo=
-			</data>
-		</dict>
-		<key>Frameworks/ScanflowCore.framework/rightTop.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oDErBiVuydTtDHHYXvanrPTNJEJTknFELgvNQxFYggM=
 			</data>
 		</dict>
 		<key>Headers/ScanflowText-Swift.h</key>

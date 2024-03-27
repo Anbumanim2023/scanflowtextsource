@@ -72,7 +72,6 @@
 		68DFB99E2952F32C00A85032 /* ScanflowText.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DFB9902952F32B00A85032 /* ScanflowText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68DFB9B02953FD8F00A85032 /* ScanflowTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9AF2953FD8F00A85032 /* ScanflowTextManager.swift */; };
 		68DFB9B2295402A200A85032 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9B1295402A200A85032 /* enum.swift */; };
-		68DFB9C42954042300A85032 /* TensorFlowLiteC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DFB9B52954042300A85032 /* TensorFlowLiteC.framework */; platformFilter = ios; };
 		68DFB9C52954042300A85032 /* QuantizationParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9B72954042300A85032 /* QuantizationParameters.swift */; };
 		68DFB9C62954042300A85032 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9B82954042300A85032 /* Model.swift */; };
 		68DFB9C72954042300A85032 /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9B92954042300A85032 /* Tensor.swift */; };
@@ -83,8 +82,8 @@
 		68DFB9CC2954042300A85032 /* effiLabel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68DFB9BF2954042300A85032 /* effiLabel.txt */; };
 		68DFB9CF2954042300A85032 /* labelmap.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68DFB9C22954042300A85032 /* labelmap.txt */; };
 		68DFB9D4295555C400A85032 /* ScanflowTextManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9D3295555C400A85032 /* ScanflowTextManager+Extension.swift */; };
-		8BD887C12BB40791000C72AC /* ScanflowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C02BB40790000C72AC /* ScanflowCore.framework */; };
-		8BD887C22BB40791000C72AC /* ScanflowCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C02BB40790000C72AC /* ScanflowCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8BD887C62BB40A5A000C72AC /* ScanflowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C42BB40A5A000C72AC /* ScanflowCore.framework */; };
+		8BD887C72BB40A5A000C72AC /* TensorFlowLiteC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C52BB40A5A000C72AC /* TensorFlowLiteC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,20 +95,6 @@
 			remoteInfo = ScanflowText;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8BD887C32BB40791000C72AC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8BD887C22BB40791000C72AC /* ScanflowCore.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		680879AB2A2887410007EE4C /* ContainerDetectionModel3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel3.tflite; sourceTree = "<group>"; };
@@ -179,7 +164,6 @@
 		68DFB99C2952F32C00A85032 /* ScanflowTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanflowTextTests.swift; sourceTree = "<group>"; };
 		68DFB9AF2953FD8F00A85032 /* ScanflowTextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanflowTextManager.swift; sourceTree = "<group>"; };
 		68DFB9B1295402A200A85032 /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
-		68DFB9B52954042300A85032 /* TensorFlowLiteC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TensorFlowLiteC.framework; sourceTree = "<group>"; };
 		68DFB9B72954042300A85032 /* QuantizationParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantizationParameters.swift; sourceTree = "<group>"; };
 		68DFB9B82954042300A85032 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		68DFB9B92954042300A85032 /* Tensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tensor.swift; sourceTree = "<group>"; };
@@ -191,6 +175,8 @@
 		68DFB9C22954042300A85032 /* labelmap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labelmap.txt; sourceTree = "<group>"; };
 		68DFB9D3295555C400A85032 /* ScanflowTextManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScanflowTextManager+Extension.swift"; sourceTree = "<group>"; };
 		8BD887C02BB40790000C72AC /* ScanflowCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanflowCore.framework; sourceTree = "<group>"; };
+		8BD887C42BB40A5A000C72AC /* ScanflowCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanflowCore.framework; sourceTree = "<group>"; };
+		8BD887C52BB40A5A000C72AC /* TensorFlowLiteC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TensorFlowLiteC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,8 +184,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD887C12BB40791000C72AC /* ScanflowCore.framework in Frameworks */,
-				68DFB9C42954042300A85032 /* TensorFlowLiteC.framework in Frameworks */,
+				8BD887C62BB40A5A000C72AC /* ScanflowCore.framework in Frameworks */,
+				8BD887C72BB40A5A000C72AC /* TensorFlowLiteC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +313,8 @@
 		68DFB9832952F32B00A85032 = {
 			isa = PBXGroup;
 			children = (
+				8BD887C42BB40A5A000C72AC /* ScanflowCore.framework */,
+				8BD887C52BB40A5A000C72AC /* TensorFlowLiteC.framework */,
 				68DFB98F2952F32B00A85032 /* ScanflowText */,
 				68DFB99B2952F32C00A85032 /* ScanflowTextTests */,
 				68DFB98E2952F32B00A85032 /* Products */,
@@ -369,19 +357,10 @@
 		68DFB9B32954042300A85032 /* Tensorflow */ = {
 			isa = PBXGroup;
 			children = (
-				68DFB9B42954042300A85032 /* Framework */,
 				68DFB9B62954042300A85032 /* Source */,
 				68DFB9BE2954042300A85032 /* Model */,
 			);
 			path = Tensorflow;
-			sourceTree = "<group>";
-		};
-		68DFB9B42954042300A85032 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				68DFB9B52954042300A85032 /* TensorFlowLiteC.framework */,
-			);
-			path = Framework;
 			sourceTree = "<group>";
 		};
 		68DFB9B62954042300A85032 /* Source */ = {
@@ -441,7 +420,6 @@
 				68DFB9892952F32B00A85032 /* Sources */,
 				68DFB98A2952F32B00A85032 /* Frameworks */,
 				68DFB98B2952F32B00A85032 /* Resources */,
-				8BD887C32BB40791000C72AC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
