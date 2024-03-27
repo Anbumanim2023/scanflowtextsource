@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   #spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Ramnath' => 'ramnath.t@optisolbusiness.com' }
   spec.source           = { :git => 'https://github.com/Anbumanim2023/scanflowtextsource.git', :branch => "master" }
-  spec.vendored_frameworks = 'ScanflowCore.framework','ScanflowText.framework','TensorFlowLiteC.framework'
+  spec.vendored_frameworks = 'ScanflowText.framework',
   
   spec.swift_version    = '5.0'
 
